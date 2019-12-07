@@ -57,10 +57,10 @@ function carousel(root) {
     console.log("imageIndex", imageIndex, imageIndex * -theta)
     console.log("currImage", currImage, currImage * -theta)
     const diff = currImage - imageIndex
-    console.log("diff", diff < 0 ? diff + 45 : diff)
+		console.log("diff", diff < 0 ? diff + 45 : diff)
+		console.log(imageIndex * -theta, "rad")
     currImage = imageIndex
 
 		figure.style.transform = `rotateY(${imageIndex * -theta}rad)`;
 	}
-
 }
