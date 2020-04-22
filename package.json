@@ -10,7 +10,7 @@
   "license": "AGPL-3.0",
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "sass": "^1.23.7"
+    "sass": "^1.26.3"
   },
   "dependencies": {
     "parcel": "^1.12.4"
